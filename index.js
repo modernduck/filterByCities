@@ -1,6 +1,10 @@
 //if can use require
 const cities = require("./cities.json");//if can require
 const citiesNames =  cities.map(item => item.name);
+
+exports.citiesNames = citiesNames;
+exports.cities = cities;
+
 exports.filterByCityName = ( query , limit = 3) => {
     if(query && query.length >= limit){
         return citiesNames.filter(item => {
@@ -10,7 +14,6 @@ exports.filterByCityName = ( query , limit = 3) => {
     }else
         return [];
 }  
-
 
 exports.filterByName= ( query , limit = 3) => {
     if(query && query.length >= limit){
