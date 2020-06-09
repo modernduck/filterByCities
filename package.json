@@ -1,0 +1,24 @@
+{
+  "name": "filterbycities",
+  "version": "1.0.0",
+  "description": "filter by cities function that let you search by name and return array of cities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modernduck/filterByCities.git"
+  },
+  "keywords": [
+    "nodejs",
+    "filter"
+  ],
+  "author": "Sompop Kulapalanont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modernduck/filterByCities/issues"
+  },
+  "homepage": "https://github.com/modernduck/filterByCities#readme"
+}
