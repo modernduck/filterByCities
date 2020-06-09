@@ -15,7 +15,7 @@ console.log(filterByName('Bangk'));
   ...
   ]
 ```
-### Type Script
+### TypeScript
 ```
 import { filterByName } from 'filterbycities';
 console.log(filterByName('Bangk'));
