@@ -3,7 +3,7 @@ Simple function that use data from https://github.com/datasets/world-cities
 
 ## Usage
 
-const { filterByName } = require("./index");
+```const { filterByName } = require("./index");
 console.log(filterByName('Bangk'))
 //return
 /*
@@ -15,3 +15,4 @@ console.log(filterByName('Bangk'))
   },
   ...
   ]
+```
