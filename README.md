@@ -16,3 +16,5 @@ console.log(filterByName('Bangk'))
   ...
   ]
 ```
+##Warning
+This code will load the cities.json directly which is 2 MB if you want to do lazy loading please avoid this code
