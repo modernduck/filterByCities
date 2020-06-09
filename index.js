@@ -4,7 +4,7 @@ const citiesNames =  cities.map(item => item.name);
 exports.filterByCityName = ( query , limit = 3) => {
     if(query && query.length >= limit){
         return citiesNames.filter(item => {
-            let result = item.name.toLowerCase().search( query.toLowerCase()) >= 0
+            let result = item.toLowerCase().search( query.toLowerCase()) >= 0
             return result;
         })
     }else
